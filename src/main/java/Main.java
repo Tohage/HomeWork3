@@ -9,8 +9,8 @@ public class Main {
         long sum = StatsService.sumSales(salesInMonth);
         System.out.println("Сумма всех продаж = " + sum + ";");
 
-        long averageSumSales = StatsService.averageSumSalesAmount(salesInMonth);
-        System.out.println("Средняя сумма продаж в месяц = " + averageSumSales + ";");
+        long averageSales = StatsService.averageSalesAmount(salesInMonth);
+        System.out.println("Средняя сумма продаж в месяц = " + averageSales + ";");
 
         int maxSales = StatsService.numMonthMaxSales(salesInMonth);
         System.out.println("Номер месяца c пиком продаж - " + maxSales + ";");
